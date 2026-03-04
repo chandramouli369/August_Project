@@ -5,7 +5,7 @@ icp_criteria:
   firm_size:
     min_lawyers: 50
     max_lawyers: 500
-    # weight: set your own
+    weight: 0.4
 
   practice_areas:
     preferred:
@@ -13,7 +13,7 @@ icp_criteria:
       - "Litigation"
       - "Real Estate"
       - "Employment Law"
-    # weight: set your own
+    weight: 0.3
 
   geography:
     preferred_regions:
@@ -22,7 +22,7 @@ icp_criteria:
       - "Singapore"
       - "Hong Kong"
       - "Japan"
-    # weight: set your own
+    weight: 0.3
 
 # Experiment Configuration
 experiments:
