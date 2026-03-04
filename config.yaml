@@ -24,6 +24,16 @@ icp_criteria:
       - "Japan"
     weight: 0.3
 
+# Lead Routing Configuration
+routing:
+  # Score thresholds for routing decisions
+  high_priority_min_score: 0.7
+  nurture_min_score: 0.4
+
+  # Hard disqualification boundaries on firm size
+  disqualify_below_min_lawyers: 10
+  disqualify_above_max_lawyers: 2000
+
 # Experiment Configuration
 experiments:
   email_variants:
